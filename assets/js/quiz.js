@@ -27,7 +27,7 @@ const app = {
         app.deliverStatus();
         app.submitData();
         app.goBack();
-        
+
         /* ESTILO Y CONFIGURACION PARA VER EL RESULTADO */
         $('.mm-survey-q li input').each(function () {
 
@@ -47,9 +47,9 @@ const app = {
         $('.mm-survey-progress-bar').css({
             'width': app.setting.percent + '%'
         });
-        
+
         //$('#num-progress').append('<span>' + app.setting.x + ' of 5 answered </span>');
-        
+
         /* CONFIGURACION PARA LAS IMAGENES */
         app.setting.slideCount = $('#slider ul li').length;
         app.setting.slideWidth = $('#slider ul li').width();
@@ -320,7 +320,7 @@ const app = {
             $('.mm-survey-results').slideUp();
         });
     },
-    
+
     moveLeft: function () {
         $('#slider ul').animate({
             left: +app.setting.slideWidth

@@ -68,7 +68,7 @@
 }
 
 .mm-finish-btn button {
-	background: #3DD2AF !important;
+	background: #F6D41B !important;
     color: #fff;
 }
 
@@ -243,7 +243,7 @@ input[type="radio"]:checked + label span {
 }
 
 .mm-survey-results-item.correct {
-	background: linear-gradient(to left, #4CB8C4, #3CD3AD);
+	background: linear-gradient(to left, #FCF7DC, #0A9B9D);
 }
 
 .mm-survey-results-item.incorrect {
