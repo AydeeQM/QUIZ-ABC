@@ -1,10 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>QUIZ-ABC</title>
 </head>
+
 <body>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="mm-survey">
+                            <div class="mm-survey-progress">
+                                <div class="mm-survey-progress-bar mm-progress"></div>
+                            </div>
+                            <div class="mm-survey-results">
+                                <div class="mm-survey-results-container">
+                                    <h3 class="mm-survey-results-score"></h3>
+                                    <ul class="mm-survey-results-list"></ul>
+                                </div>
+                                <div class="mm-survey-results-controller">
+                                    <div class="mm-back-btn">
+                                        <button>Back</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mm-survey-bottom">
+                                <div class="mm-survey-container">
+                                    <div class="mm-survey-page active" data-page="1">
+                                        <h3>1 of 5 answered </h3>
+                                        <div class="mm-survery-content text-center">
+                                            <div class="mm-survey-question">
+                                                <p>Which is the oldest airline in the world?</p>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio01" data-item="1" name="radio1" value="avianca" />
+                                                <label for="radio01"><span></span><p>Avianca</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio02" data-item="1" name="radio1" value="klm" />
+                                                <label for="radio02"><span></span><p>KLM</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio03" data-item="1" name="radio1" value="qantas" />
+                                                <label for="radio03"><span></span><p>Qantas</p></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mm-survey-page" data-page="2">
+                                        <h3>2 of 5 answered </h3>
+                                        <div class="mm-survery-content text-center">
+                                            <div class="mm-survey-question">
+                                                <p>Which is the largest port in the world?</p>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio04" data-item="2" name="radio2" value="shangai" />
+                                                <label for="radio04"><span></span><p>Port of Shangai</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio05" data-item="2" name="radio2" value="singapore" />
+                                                <label for="radio05"><span></span><p>Port of Singapore</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio06" data-item="2" name="radio2" value="rotterdam" />
+                                                <label for="radio06"><span></span><p>Port Rotterdam</p></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mm-survey-page" data-page="3">
+                                        <h3>3 of 5 answered </h3>
+                                        <div class="mm-survery-content text-center">
+                                            <div class="mm-survey-question">
+                                                <p>What is the longest distance cycling backwards?</p>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio07" data-item="3" name="radio3" value="89.30" />
+                                                <label for="radio07"><span></span><p>89.30 km</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio08" data-item="3" name="radio3" value="675.10" />
+                                                <label for="radio08"><span></span><p>675.10 km</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio09" data-item="3" name="radio3" value="337.60" />
+                                                <label for="radio09"><span></span><p>337.60 km</p></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mm-survey-page" data-page="4">
+                                        <h3>4 of 5 answered </h3>
+                                        <div class="mm-survery-content text-center">
+                                            <div class="mm-survey-question">
+                                                <p>What is the highest speed ever reached by a school bus?</p>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio10" data-item="4" name="radio4" value="590" />
+                                                <label for="radio10"><span></span><p>590 km/h</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio11" data-item="4" name="radio4" value="320" />
+                                                <label for="radio11"><span></span><p>320 km/h</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio12" data-item="4" name="radio4" value="245" />
+                                                <label for="radio12"><span></span><p>245 km/h</p></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mm-survey-page" data-page="5">
+                                        <h3>5 of 5 answered </h3>
+                                        <div class="mm-survery-content text-center">
+                                            <div class="mm-survey-question">
+                                                <p>What is the longest car trip on one tank of gas?</p>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio13" data-item="5" name="radio5" value="2617" />
+                                                <label for="radio13"><span></span><p>2617 km</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio14" data-item="5" name="radio5" value="3568" />
+                                                <label for="radio14"><span></span><p>3568 km</p></label>
+                                            </div>
+                                            <div class="mm-survey-item">
+                                                <input type="radio" id="radio15" data-item="5" name="radio5" value="1732" />
+                                                <label for="radio15"><span></span><p>1732 km</p></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="mm-survey-controller">
+                                    <div class="mm-prev-btn">
+                                        <button>Prev</button>
+                                    </div>
+                                    <div class="mm-next-btn">
+                                        <button disabled="true">Next</button>
+                                    </div>
+                                    <div class="mm-finish-btn">
+                                        <button>Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/quiz.js"></script>
+    </body>
+
+    </html>
+
 </body>
+
 </html>
