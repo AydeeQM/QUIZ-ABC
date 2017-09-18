@@ -285,7 +285,7 @@ const app = {
 
         $('.mm-survey-results-container .mm-survey-results-list').html('');
 
-        for (i = 1; i <= app.setting.count; i++) {
+        for (let i = 1; i <= app.setting.count; i++) {
 
             let t = {};
             let m = {};
