@@ -243,7 +243,7 @@ input[type="radio"]:checked + label span {
 }
 
 .mm-survey-results-item.correct {
-	background: linear-gradient(to left, #FCF7DC, #0A9B9D);
+	background: linear-gradient(to left, #0A9B9D, #FCF7DC);
 }
 
 .mm-survey-results-item.incorrect {
