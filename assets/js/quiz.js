@@ -27,7 +27,8 @@ const app = {
         app.deliverStatus();
         app.submitData();
         app.goBack();
-
+        
+        /* ESTILO Y CONFIGURACION PARA VER EL RESULTADO */
         $('.mm-survey-q li input').each(function () {
 
             let item;
@@ -35,21 +36,21 @@ const app = {
 
             $(item).on('click', function () {
                 if ($('input:checked').length > 0) {
-                    // console.log(item.val());
                     $('label').parent().removeClass('active');
                     item.closest('li').addClass('active');
                 }
             });
 
         });
-
+        /* ESTILO Y CONFIGURACION PARA LA BARRA DE PROGRESO */
         app.setting.percent = (app.setting.x / app.setting.count) * 100;
         $('.mm-survey-progress-bar').css({
             'width': app.setting.percent + '%'
         });
         
         //$('#num-progress').append('<span>' + app.setting.x + ' of 5 answered </span>');
-
+        
+        /* CONFIGURACION PARA LAS IMAGENES */
         app.setting.slideCount = $('#slider ul li').length;
         app.setting.slideWidth = $('#slider ul li').width();
         app.setting.slideHeight = $('#slider ul li').height();
